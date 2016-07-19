@@ -12,8 +12,11 @@
 ## Pipeline
 
 ### Tools
-* Implemented on Caffe, Keras
+* Implemented on [Caffe](https://github.com/BVLC/caffe), [Keras](http://keras.io/)
 * CNN Models: VGG-16, VGG-19, ResNet-50
+#### Related Papers: 
+* VGG-16,-19 from [Very Deep Convolutional Networks for Large-Scale Image Recognition](http://arxiv.org/pdf/1409.1556.pdf)
+* ResNet-50 from [Deep Residual Learning for Image Recognition](http://arxiv.org/pdf/1512.03385.pdf)
 
 ### Image Preprocessing
 * Occlusion: Zero out random block of 150x100 to simulate occlusion
@@ -22,10 +25,10 @@
 * Mean subtraction: Following ImageNet procedure
 * Resize: Original image(640x480) to (224x224)
 
-### Learning Algorithm
-* VGG-16 with pre-trained weights (Keras)
-* VGG-19 with pre-trained weights (Keras)
-* ResNet-50 with pre-trained weights (Caffe)
+### Convolutional Neural Networks
+* VGG-16 with pre-trained weights (Keras) [here](https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3)
+* VGG-19 with pre-trained weights (Keras) [here](https://gist.github.com/baraldilorenzo/8d096f48a1be4a2d660d)
+* ResNet-50 with pre-trained weights (Caffe) [here](https://github.com/KaimingHe/deep-residual-networks)
 
 ### Hyper Parameter Tuning
 * Optimizers: Stochastic Gradient Descent, RMSprop, Adadelta, Adagrad
@@ -36,14 +39,14 @@
 
 ### Evaluation & Visualization
 * Inhouse Validation loss correlated well with Public Leaderboard
-* Visualization inspired by VGG-CAM
+* Visualization inspired by VGG-CAM model in Keras [here](https://github.com/tdeboissiere/VGG16CAM-keras)
 
 ### Submission
 * Single Best Model: 
 * Final Submission: 
 * Private Leaderboard: 
 
-### Lessions Learnt
+## Lessions Learnt
 * Resnet-152, the best CNN model who won ImageNet2015, is too big for this model (overfits)
 * VGG-16, VGG-19, GoogleNet, ResNet-50 trained from scratch did not converge (frankly, I could not find learning policy to converge)
 * Visualizing CNN is cumbersome, but definitely fun!
