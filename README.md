@@ -9,15 +9,21 @@
 
 **Ends:** August 1 2016 (118 total days)
 
+## Related Works
+* VGG-16,-19 from [Very Deep Convolutional Networks for Large-Scale Image Recognition](http://arxiv.org/pdf/1409.1556.pdf)
+* GoogleNet from [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/pdf/1512.00567v3.pdf)
+* ResNet-50,-101,-152 from [Deep Residual Learning for Image Recognition](http://arxiv.org/pdf/1512.03385.pdf)
+* VGG-16 ImageNet [pre-trained weights](https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3) (Keras)
+* VGG-19 ImageNet [pre-trained weights](https://gist.github.com/baraldilorenzo/8d096f48a1be4a2d660d) (Keras)
+* ResNet ImageNet [pre-trained weights](https://github.com/KaimingHe/deep-residual-networks) (Caffe)
+* ResNet ImageNet [pre-trained weights](https://github.com/ry/tensorflow-resnet) (Tensorflow)
+* Visualization of CNN inspired by [VGG-CAM](https://github.com/tdeboissiere/VGG16CAM-keras)
+
 ## Pipeline
 
 ### Tools
 * Implemented on [Caffe](https://github.com/BVLC/caffe), [Keras](http://keras.io/)
 * CNN Models: VGG-16, VGG-19, ResNet-50
-
-#### Related Papers: 
-* VGG-16,-19 from [Very Deep Convolutional Networks for Large-Scale Image Recognition](http://arxiv.org/pdf/1409.1556.pdf)
-* ResNet-50 from [Deep Residual Learning for Image Recognition](http://arxiv.org/pdf/1512.03385.pdf)
 
 ### Image Preprocessing
 * Occlusion: Zero out random block of 150x100 to simulate occlusion
@@ -27,9 +33,8 @@
 * Resize: Original image(640x480) to (224x224)
 
 ### Convolutional Neural Networks
-* VGG-16 with pre-trained weights (Keras) [here](https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3)
-* VGG-19 with pre-trained weights (Keras) [here](https://gist.github.com/baraldilorenzo/8d096f48a1be4a2d660d)
-* ResNet-50 with pre-trained weights (Caffe) [here](https://github.com/KaimingHe/deep-residual-networks)
+* VGG-16, VGG-19
+* ResNet-50 
 
 ### Hyper Parameter Tuning
 * Optimizers: Stochastic Gradient Descent, RMSprop, Adadelta, Adagrad
@@ -40,7 +45,7 @@
 
 ### Evaluation & Visualization
 * Inhouse Validation loss correlated well with Public Leaderboard
-* Visualization inspired by VGG-CAM model in Keras [here](https://github.com/tdeboissiere/VGG16CAM-keras)
+* Visualization inspired by VGG-CAM model in Keras
 
 ### Submission
 * Single Best Model: 
