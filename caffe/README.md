@@ -4,9 +4,10 @@
 * change path for 'model_def' and 'model_weights' in make_submission.py
 
 ## Usage
-Assuming caffe_root is your path to caffe directory
-* **root_caffe/build/tools/caffe train -solver solver.prototxt -weights weights.caffemodel**
-
+Assuming caffe_root is your path to caffe directory, run 
+'''shell
+root_caffe/build/tools/caffe train -solver solver.prototxt -weights weights.caffemodel
+'''
 ## Examples
 * Good learning curve
 * Wide gap between train_loss and val_loss indicates overfitting
