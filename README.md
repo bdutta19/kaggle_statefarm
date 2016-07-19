@@ -14,6 +14,7 @@
 ### Tools
 * Implemented on [Caffe](https://github.com/BVLC/caffe), [Keras](http://keras.io/)
 * CNN Models: VGG-16, VGG-19, ResNet-50
+
 #### Related Papers: 
 * VGG-16,-19 from [Very Deep Convolutional Networks for Large-Scale Image Recognition](http://arxiv.org/pdf/1409.1556.pdf)
 * ResNet-50 from [Deep Residual Learning for Image Recognition](http://arxiv.org/pdf/1512.03385.pdf)
