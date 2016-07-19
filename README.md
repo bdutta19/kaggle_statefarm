@@ -1,4 +1,4 @@
-# Kaggle/State Farm Image Recognition Challenge
+# Kaggle/State Farm Image Classification Challenge
 <div align="center">
   <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/5048/media/output_DEb8oT.gif"><br><br>
 </div>
