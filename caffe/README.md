@@ -11,7 +11,14 @@ root_caffe/build/tools/caffe train -solver solver.prototxt -weights weights.caff
 ## Examples
 * Good learning curve
 * Wide gap between train_loss and val_loss indicates overfitting
-<img src="https://github.com/kweonwooj/kaggle_statefarm/blob/master/caffe/images/learning_curve_g.png" width="48">
+
+<div align="center">
+  <img src="https://github.com/kweonwooj/kaggle_statefarm/blob/master/caffe/images/learning_curve_g.png" width="700">
+</div>
+
 * Bad learning curve
 * Learning policies must be adjusted
-<img src="https://github.com/kweonwooj/kaggle_statefarm/blob/master/caffe/images/learning_curve_b.png" width="48">
+
+<div align="center">
+  <img src="https://github.com/kweonwooj/kaggle_statefarm/blob/master/caffe/images/learning_curve_b.png" width="700">
+</div>
