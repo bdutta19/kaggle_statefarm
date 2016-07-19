@@ -15,7 +15,15 @@ State Farm hopes to improve these alarming statistics, and better insure their c
 
 **Ends:** August 1 2016 (118 total days)
 
+## Pipeline
 
-# kaggle_statefarm
-Script for Kaggle Competition : Statefarm Distracted Driver Detection
+### Image Preprocessing
+
+### Learning Algorithm
+
+### Hyper Parameter Tuning
+
+### Evaluation & Visualization
+
+### Submission
 
