@@ -10,9 +10,9 @@
 **Ends:** August 1 2016 (118 total days)
 
 ## Related Works
-* VGG-16,-19 from [Very Deep Convolutional Networks for Large-Scale Image Recognition](http://arxiv.org/pdf/1409.1556.pdf)
-* GoogleNet from [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/pdf/1512.00567v3.pdf)
-* ResNet-50,-101,-152 from [Deep Residual Learning for Image Recognition](http://arxiv.org/pdf/1512.03385.pdf)
+* **VGG-16,-19 Model** from [Very Deep Convolutional Networks for Large-Scale Image Recognition](http://arxiv.org/pdf/1409.1556.pdf)
+* **GoogleNet Model** from [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/pdf/1512.00567v3.pdf)
+* **ResNet-50,-101,-152 Model** from [Deep Residual Learning for Image Recognition](http://arxiv.org/pdf/1512.03385.pdf)
 * VGG-16 ImageNet [pre-trained weights](https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3) (Keras)
 * VGG-19 ImageNet [pre-trained weights](https://gist.github.com/baraldilorenzo/8d096f48a1be4a2d660d) (Keras)
 * ResNet ImageNet [pre-trained weights](https://github.com/KaimingHe/deep-residual-networks) (Caffe)
