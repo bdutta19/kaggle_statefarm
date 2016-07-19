@@ -3,7 +3,7 @@
   <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/5048/media/output_DEb8oT.gif"><br><br>
 </div>
 ## Introduction
-**State Farm** has hosted a computer vision problem to kagglers asking "Can you spot distracted drivers?" Given a dataset of 2D dashboard camera images, State Farm is challenging Kagglers to classify each driver's behavior. Are they driving attentively, wearing their seatbelt, or taking a selfie with their friends in the backseat?
+**State Farm** has hosted a [computer vision problem](https://www.kaggle.com/c/state-farm-distracted-driver-detection) to kagglers asking "Can you spot distracted drivers?" Given a dataset of 2D dashboard camera images, State Farm is challenging Kagglers to classify each driver's behavior. Are they driving attentively, wearing their seatbelt, or taking a selfie with their friends in the backseat?
 
 **Started:** April 5 2016
 
