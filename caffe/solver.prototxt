@@ -1,0 +1,14 @@
+net: "model.prototxt"
+test_iter: 804
+test_interval: 200
+display: 100
+base_lr: 0.005
+lr_policy: "step"
+stepsize: 24000
+gamma: 0.3
+max_iter: 72000 # 4800 for epoch=1
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 72000
+snapshot_prefix: "~/snapshot"
+solver_mode: GPU
