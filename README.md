@@ -1,7 +1,9 @@
+# Kaggle/State Farm Image Recognition Challenge
 <div align="center">
   <img src="https://kaggle2.blob.core.windows.net/competitions/kaggle/5048/media/output_DEb8oT.gif"><br><br>
 </div>
 -----------------------
+## Introduction
 **Kaggle** is a data science/machine learning competition platform where the world's largest community of data scientits compete to solve valuable problems proposed by firms.
 
 **State Farm** has hosted a computer vision problem to kagglers asking "Can you spot distracted drivers?"
