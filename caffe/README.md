@@ -6,3 +6,15 @@
 ## Usage
 Assuming caffe_root is your path to caffe directory
 * **root_caffe/build/tools/caffe train -solver solver.prototxt -weights weights.caffemodel**
+
+## Examples
+* Good learning curve
+* Wide gap between train_loss and val_loss indicates overfitting
+<div align="center">
+  <img src="https://github.com/kweonwooj/kaggle_statefarm/blob/master/caffe/images/learning_curve_g.png"><br><br>
+</div>
+* Bad learning curve
+* Learning policies must be adjusted
+<div align="center">
+  <img src="https://github.com/kweonwooj/kaggle_statefarm/blob/master/caffe/images/learning_curve_b.png"><br><br>
+</div>
