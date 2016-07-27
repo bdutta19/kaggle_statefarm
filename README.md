@@ -58,4 +58,6 @@
 * Visualizing CNN is cumbersome, but definitely fun!
 * Keras is good starting point for CNN, especially validating ideas and brain-storming
 * Caffe is fast, efficient and abundant in resources(pre-trained weights, CNN related papers with implementations in Caffe)
+* Intended same setup in Keras, Caffe, Tensorflow, but results differ -> need to dig deeper into implementation of each platforms
+* After all, I have the same tools/model architecture as top ranking kagglers. I need to improve on Machine Learning part (cross-validation, generalization, quick and smart iteration)
 * Competition makes me learn
