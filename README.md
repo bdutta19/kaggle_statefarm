@@ -4,10 +4,10 @@
 </div>
 ## Introduction
 **State Farm** has hosted a [computer vision problem](https://www.kaggle.com/c/state-farm-distracted-driver-detection) to kagglers asking "Can you spot distracted drivers?" Given a dataset of 2D dashboard camera images, State Farm is challenging Kagglers to classify each driver's behavior. Are they driving attentively, wearing their seatbelt, or taking a selfie with their friends in the backseat?
+Competition requires you to handle raw images with relatively big size(4GB in total). Convolutional Neural Network is a mainstream technique widely used by participants of this competition, Kaggle admin also allowed participants to use pre-trained model to kick-start their performance if and only if a license term is not violated. Hence, various ImageNet pre-trained convolutional neural networks have been used (VGG-16, VGG-19, GoogleNet, Inception, ResNet and Darknets), with VGG and ResNet being the most popular on the forum. 
+I approached this competition using a combination of VGG and ResNet implemented in two deep learning platforms - Keras and Caffe. Evaluation metric was [multi-class logarithmic loss](https://www.kaggle.com/wiki/MultiClassLogLoss). My submission scored around 0.25 in Public Leaderboard which ranks around Top 9%.
 
-**Started:** April 5 2016
-
-**Ends:** August 1 2016 (118 total days)
+**Period:** April 5 2016 ~ August 1 2016 (118 total days)
 
 ## Related Works
 * **VGG-16,-19 Model** from [Very Deep Convolutional Networks for Large-Scale Image Recognition](http://arxiv.org/pdf/1409.1556.pdf)
