@@ -54,7 +54,7 @@ I approached this competition using a combination of VGG and ResNet implemented 
 * Final Submission: 
 * Private Leaderboard: 
 
-## Lessions Learnt
+## Lessons Learnt
 * Resnet-152, the best CNN model who won ImageNet2015, is too big for this model (overfits)
 * VGG-16, VGG-19, GoogleNet, ResNet-50 trained from scratch did not converge (frankly, I could not find learning policy to converge)
 * Visualizing CNN is cumbersome, but definitely fun!
