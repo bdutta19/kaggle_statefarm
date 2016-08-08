@@ -50,9 +50,7 @@ I approached this competition using a combination of VGG and ResNet implemented 
 * Visualization inspired by VGG-CAM model in Keras
 
 ### Submission
-* Single Best Model: 
-* Final Submission: 
-* Private Leaderboard: 
+* Result: 188th / 1440 (Top 14%)
 
 ## Lessons Learnt
 * Resnet-152, the best CNN model who won ImageNet2015, is too big for this model (overfits)
@@ -63,3 +61,16 @@ I approached this competition using a combination of VGG and ResNet implemented 
 * Intended same setup in Keras, Caffe, Tensorflow, but results differ -> need to dig deeper into implementation of each platforms
 * After all, I have the same tools/model architecture as top ranking kagglers. I need to improve on Machine Learning part (cross-validation, generalization, quick and smart iteration)
 * Competition makes me learn
+
+## Winning Methods
+* 3rd by BRAZIL_POWER (0.08877 > 0.09058) [Link](https://www.kaggle.com/c/state-farm-distracted-driver-detection/forums/t/22631/3-br-power-solution)
+    - Ensemble of 4 models - ResNet152, VGG16
+    - Use synthetic test image = image + nearest neighbor images
+   
+* 5th by DZS Team (0.10252 > 0.12144) [Link](https://www.kaggle.com/c/state-farm-distracted-driver-detection/forums/t/22627/share-your-best-single-model-score-on-public-lb)
+    - Synthetic Train Images = Half + Half of train image. 5 Million synthetic image to train GoogleNet
+   
+* 10th by toshi-k (0.14354 > 0.14911) [Link](https://github.com/toshi-k/kaggle-distracted-driver-detection)
+    - 20 Models for Ensembling
+    - CNN to detect driver body pixel (Semantic Segmentation)
+    - Crop driver region(by bounding box) and use another classifier on this region
