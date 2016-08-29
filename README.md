@@ -61,8 +61,15 @@ I approached this competition using a combination of VGG and ResNet implemented 
 * Intended same setup in Keras, Caffe, Tensorflow, but results differ -> need to dig deeper into implementation of each platforms
 * After all, I have the same tools/model architecture as top ranking kagglers. I need to improve on Machine Learning part (cross-validation, generalization, quick and smart iteration)
 * Competition makes me learn
+* Strong Ensemble Technique(Lowering Generalization Error) with Weak Single Models Outperform Weak Ensemble Techniques with Strong Single Models.
 
 ## Winning Methods
+* 1st by jacobkie [Link](https://www.kaggle.com/c/state-farm-distracted-driver-detection/forums/t/22906/a-brief-summary/131467#post131467)
+    - Pre-trained VGG16, modified VGG16_3 (Single Model got LB score around 0.3)
+    - VGG16_3 trained with two selected regions of interests(head and radio area) together with original image
+    - K-Nearest Neighbor Average: Uses last Maxpool layer(pool5) of VGG16 to map test image to 512*7*7 coordinate, use distances in this space to define similarity, weighted average of predictions together with 10-NN improves single model score by 0.10~0.12
+    - Ensemble average for each category separately. Models with top 10% cross-entropy loss associated with category are chosen. Outperforms simple arithmetic/geometric average.
+    - Segment Average: Divide test images into group using pool5-feature space, if one group displayes consistency and confidence, renormalize all the images in that group to share predictions.
 * 3rd by BRAZIL_POWER (0.08877 > 0.09058) [Link](https://www.kaggle.com/c/state-farm-distracted-driver-detection/forums/t/22631/3-br-power-solution)
     - Ensemble of 4 models - ResNet152, VGG16
     - Use synthetic test image = image + nearest neighbor images
