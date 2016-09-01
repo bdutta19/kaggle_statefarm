@@ -5,7 +5,7 @@
 ## Usage
 Assuming caffe_root is your path to caffe directory, run 
 ```shell
-root_caffe/build/tools/caffe train -solver solver.prototxt -weights weights.caffemodel
+root/caffe/build/tools/caffe train -solver solver.prototxt -weights weights.caffemodel
 ```
 ## Examples
 * Good learning curve
